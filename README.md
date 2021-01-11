@@ -1,6 +1,6 @@
-# Signly
+# Signly Installation Documentation
 
-Signly JavaScript module allows website users to play and request sign language translations.
+Signly JavaScript module allows website users to play and request sign language translations. It can simply be included in a web page. An example of this can be seen here [Signly Test Page](https://signly-projects.github.io)
 
 ## Include Signly in Website 
 
@@ -39,6 +39,13 @@ In order to deactivate Signly, the key *showSignly* will have to be set to *fals
 window.turnOffSignly()
 ```
 
+## Testing functions
+1. In a browser, open the link [https://signly-projects.github.io/](https://signly-projects.github.io)
+2. Open the Developer tools (CTRL + SHIFT + C)
+3. Write the following command in the console to start Signly:
+```window.turnOnSignly()```
+4. Write the following command in the console to stop Signly:
+```window.turnOffSignly()```
 
 ## How it works
 
