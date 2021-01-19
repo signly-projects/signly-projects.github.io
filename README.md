@@ -69,7 +69,20 @@ If the user is using a mobile device he/she can play a translation by swiping th
 Some text contained in a translated web page might not be translated yet, therefore, it'll be shown in 
 gray for desktop users and won't trigger any action for mobile user on a swipe action.
 
-## Important Note
+## IMPORTANT NOTE
 
 Don't include Signly module in pages that contain private data.
 
+## COOKIES
+Signly uses cookies. 
+
+### Here are the following key/value pairs being used:
+
+1. *showSignly* - stores boolean value
+ - true shows signly window
+ - false hides signly window
+2. *signlyVideoWidth* - stores signly window width in pixels
+ - max value: 400
+ - min value: 100
+
+3. *signlyPageCounter* - stores the number of times was loaded on all pages
