@@ -23,8 +23,8 @@ Append Signly JavaScript script to the end of the body element:
 
 ## Activating Signly 
 
-Despite being included on the web page, Signly will only be active if the cookie 
-key *showSignly* is set to *true*.
+Despite being included on the web page, Signly will only be active if the local storage item 
+*showSignly* is set to *true*.
 
 ### This can be achieved by running the JavaScript function (available globally):
 ```
@@ -32,7 +32,7 @@ window.turnOnSignly()
 ```
 
 ## Deactivating Signly
-In order to deactivate Signly, the key *showSignly* will have to be set to *false*
+In order to deactivate Signly, the local storage item *showSignly* will have to be set to *false*
 
 ### This can be achieved by running the JavaScript function (available globally):
 ```
@@ -73,10 +73,10 @@ gray for desktop users and won't trigger any action for mobile user on a swipe a
 
 Don't include Signly module in pages that contain private data.
 
-## COOKIES
-Signly uses cookies. 
+## Client side storage
+Signly uses the local storage of the browser. 
 
-### Here are the following key/value pairs being used:
+### Here are the following local storage items being used:
 
 1. *showSignly* - stores boolean value
  - true shows signly window
@@ -85,4 +85,4 @@ Signly uses cookies.
  - max value: 400
  - min value: 100
 
-3. *signlyPageCounter* - stores the number of times was loaded on all pages
+3. *signlyPageCounter* - stores the number of times was loaded on all pages.
