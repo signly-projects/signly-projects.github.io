@@ -84,5 +84,4 @@ Signly uses the local storage of the browser.
 2. *signlyVideoWidth* - stores signly window width in pixels
  - max value: 400
  - min value: 100
-
-3. *signlyPageCounter* - stores the number of times was loaded on all pages.
+3. *signlyPageCounter* - stores the number of times signly was loaded on all pages. This will allow to auto-pause the default video that instructs how to use signly on a page load.
