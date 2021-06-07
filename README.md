@@ -39,6 +39,13 @@ In order to deactivate Signly, the local storage item *showSignly* will have to 
 window.turnOffSignly()
 ```
 
+## Manual text capture
+### In order to fire the text capturing manually you can run the following global function
+```
+window.capturePageText()
+```
+#### NOTE: this function will only be availbale if signly is active, i.e. if the localStorage key/value 'showSignly' is set to 'true' (the string 'true')
+
 ## Testing functions
 1. In a browser, open the link [https://signly-projects.github.io/](https://signly-projects.github.io)
 2. Open the Developer tools (CTRL + SHIFT + C)
